@@ -1,3 +1,21 @@
+fwts (21.01.01-0ubuntu1) hirsute; urgency=medium
+
+  [Alex Hung]
+  * acpi: replace objname by get_object_name() in various functions
+  * acpi: method: remove a redundant passed message
+  * acpi: move acpi battery common methods to lib
+  * acpi: method: check fixed package by fwts_method_package_elements_type
+  * acpi: method: merge and refine _CSD, _PSD and _TSD return tests
+  * acpi: method: refine _PSS and _TSS method tests
+  * acpi: method: merge _PCT & _PTC method tests
+  * acpi: method: refine tests sub-package elements
+  * acpi: method: remove redundant count_equal checks in _CPC test
+  * acpi: method: refine _Sx count checks by fwts_method_package_count_min
+  * acpi: method: refine _PRW method tests
+  * acpi: method: add passed messages to _GLK and _DSD tests
+
+ -- Alex Hung <alex.hung@ubuntu.com>  Fri, 22 Jan 2021 23:35:41 -0700
+
 fwts (21.01.00-0ubuntu1) hirsute; urgency=medium
 
   [Alex Hung]
