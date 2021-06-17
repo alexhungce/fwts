@@ -446,9 +446,6 @@ static int tpmevlog_test1(fwts_framework *fw)
 			int fd;
 			size_t length;
 
-			fwts_log_nl(fw);
-			fwts_log_info_verbatim(fw, "%s", tpmdir->d_name);
-
 			snprintf(path, sizeof(path), FWTS_TPM_LOG_DIR_PATH "/%s/binary_bios_measurements", tpmdir->d_name);
 
 			if ((fd = open(path, O_RDONLY)) >= 0) {
